@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Leandro Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS do Projeto -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Dev Icon Fonts -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
-    <h1>Carlos Leandro</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Carlos Leandro</h2>
+            <img id="bio-image" src="img/profile.jpg" alt="Carlos Leandro">
+            <p>Hello, my name is Carlos Leandro and I am <span class="highlight">Business and Data Analyst</span>.</p>
+            <p id="welcome-text">Welcome!</p>
+            <ul id="social-container">
+                <li><a href="https://linkedin.com/in/carlosleandrobh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:carlosleandrobh@gmail.com">carlosleandrobh@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Carlos Leandro</h1>
+            <p id="title"><span class="highlight">Business and Data Analyst</span></p>
+            <p class="description">I am an experienced IT professional with over 15 years of <span class="highlight">expertise bridging the gap between business needs and technical teams</span>, effectively transforming client requirements into actionable technical specifications.</p>
+            <p class="description">I specialise in Business and Data Analysis with a <span class="highlight">strong focus on data-driven decision-making, process improvement, implementing changes, and stakeholder engagement</span> across diverse sectors such as Construction, Education, Food Manufacturing, Healthcare, Mining, Recreation Clubs, and Retail.</p>
+            <a href="https://github.com/carlosleandrobh" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>View Projects</span></a>
+            <h2 id="skills-section-title">My Skills</h2>
+            <p class="description">Get to know the technologies I master:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Cloud</p>
+                    <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                    <i class="devicon-azure-plain-wordmark colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
+                    <i class="devicon-oracle-original colored"></i>
+                    <i class="devicon-mysql-original colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-git-plain-wordmark colored"></i>
+                    <i class="devicon-github-original-wordmark"></i>
+                    <i class="devicon-jira-plain-wordmark colored"></i>
+                    <i class="devicon-trello-plain-wordmark colored"></i>
+                    <i class="devicon-vscode-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Ion Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
